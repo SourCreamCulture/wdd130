@@ -1,0 +1,46 @@
+body{
+    background-color: pink;
+}
+main{
+    width: 300px;
+    margin: 0 auto;
+}
+.box{
+    margin: 0 auto;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+.quote{
+    text-align: center;
+    color: white;
+}
+li{
+    font-size: 20px;
+}
+.list{
+    color: black;
+}
+div.container {
+    text-align: center;
+}
+ol.list {
+    display: inline-block;
+    text-align: left;
+    font-weight: bold;
+}
+.nelly{
+    width: 200px;
+    display: block; 
+    margin: 0 auto; 
+    max-width: 100%;
+}
+.quote2{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.footer{
+    text-align: center;
+}
