@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The contact information and a contact form which the user can submit to ask questions">
+    <meta name="author" content="Dallin Bland">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/logo.png" alt="Wild Water Rafting Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="/wwr/about.html">About Us</a></li>
+                    <li><a href="#">Trips</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you. Fill out the form below to get in touch.</p>
+
+            <form action="#" method="post" class="contact-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <p>Purpose of Message:</p>
+                <input type="radio" id="general" name="purpose" value="general" required>
+                <label for="general">General Inquiry</label><br>
+                <input type="radio" id="reservation" name="purpose" value="reservation" required>
+                <label for="reservation">Reservation Question</label><br>
+                <input type="radio" id="suggestion" name="purpose" value="suggestion" required>
+                <label for="suggestion">Website Suggestion</label><br>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe">Please subscribe me to the monthly newsletter</label><br>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <p>Address: 123 Main St, City, ST 12345</p>
+                <p>Phone: <a href="tel:+1234567890">(123) 456-7890</a></p>
+                <p>Email: <a href="mailto:contact@company.com">contact@company.com</a></p>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345091234!2d144.95373631531858!3d-37.81627927975161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577f674365c1fc8!2sMelbourne%20CBD%2C%20VIC%203000%2C%20Australia!5e0!3m2!1sen!2sus!4v1613971813125!5m2!1sen!2sus" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+
+            <div class="employee-profiles">
+                <h2>Meet Our Team</h2>
+                <div class="profile">
+                    <img src="/wwr/images/team1.jpeg" alt="John Doe">
+                    <p>John Doe - Customer Service</p>
+                </div>
+                <div class="profile">
+                    <img src="/wwr/images/team2.jpeg" alt="Jane Smith">
+                    <p>James Smith - Sales Manager</p>
+                </div>
+                <div class="profile">
+                    <img src="/wwr/images/team3.jpeg" alt="Mike Brown">
+                    <p>Mike Brown - Technical Support</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 White Water Rafting | Created by Dallin Bland</p>
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="Facebook">
+                </a><a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="Instagram">
+                </a><a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="Twitter">
+                </a><a href="https://wireframe.cc/br7Ale" target="_blank">
+                    <img src="images/w.jpeg" alt="Wireframe">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
