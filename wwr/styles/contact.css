@@ -24,14 +24,11 @@ body {
     box-sizing: border-box;
 }
 
-.map {
-    border: 0;
-}
-
 iframe {
 
     width:600px ;
     height:450px ;
+    border: 0;
 
 }
 
