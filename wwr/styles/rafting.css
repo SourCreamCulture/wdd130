@@ -359,3 +359,160 @@ footer p a {
     color: #fff;
     text-decoration: none;
 }
+
+
+
+/* trips page */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container .trip img {
+    width: 400px;
+}
+
+main {
+    padding: 20px 0;
+}
+
+main h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main .trip {
+    margin-bottom: 20px;
+}
+
+main .trip h2 {
+    margin-bottom: 10px;
+}
+
+main .trip img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+main .trip p {
+    margin-bottom: 20px;
+}
+
+main table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+main table, main th, main td {
+    border: 1px solid #ddd;
+}
+
+main th, main td {
+    padding: 10px;
+    text-align: left;
+}
+
+
+
+/* Home Page */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container2 {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.container2 .hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.container2 .hero img {
+    width: 100%;
+    height: auto;
+}
+
+.container2 .hero-text h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
+
+.container2 .hero-text p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
+
+.container2 .newsletter, .call-to-action {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.container2 .newsletter form {
+    display: inline-block;
+    text-align: left;
+}
+
+.container2 .newsletter label, .newsletter input {
+    display: block;
+    margin: 10px 0;
+}
+
+.container2 .newsletter input[type="text"],
+.container2 .newsletter input[type="email"] {
+    width: 100%;
+    padding: 10px;
+}
+
+.container2 .newsletter button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.container2 .about-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.container2 .about-grid .grid-item {
+    text-align: center;
+}
+
+.container2 .about-grid .grid-item img {
+    width: 100%;
+    height: auto;
+}
